@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(45deg, #ff0000,  #0000ff, #00ff00);  
+}
+
+
+.card {
+  width: 25%;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  
+  
+}
+
+
+
+
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  width: 100%; /* Adjust the width as needed */
+  height: 70%; /* Adjust the height as needed */
+ 
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container{
+  display:flex ;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  
+}
+
+header{
+  text-align: center;
+}
+
+header h1 {
+  border: 2px solid black; /* Reduce the border size to 1px */
+  border-radius: 15px;
+  border-width: 2px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,26,173,1) 39%, rgb(9, 205, 15) 89%); 
+  margin-bottom: 10px;
+  padding: 0px 40px 20px;
+  width:98vw;
+  text-align: center;
+ 
+
+  color:white;
+
+  text-align: center; /* Center the content horizontally */
+}
+header h2 {
+ 
+  border: 2px solid black; /* Reduce the border size to 1px */
+  border-radius: 15px;
+
+  text-align: center; 
+  border-width: 3px;
+  padding: 12px 20px;
+  background-color: rgb(98, 98, 181);
+  color: #f3f2f2;
+
+ 
+
+}
+
+.hscore{
+  display: flex;
+  flex-wrap:wrap;
+
+  justify-content: center;
+  gap: 15px;
+
+}
+
+
+
+
+
