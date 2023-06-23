@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Card from "./components/Card";
-import Counter from "./components/Counter";
+
 import Right from "./components/Right";
 
 

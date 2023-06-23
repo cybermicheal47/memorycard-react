@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Counter from './Counter';
+
 import pizza from '../images/pizza.jpg';
 import burger from '../images/burger.jpg';
 import fries from '../images/frying.jpg';
