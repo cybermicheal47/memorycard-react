@@ -21,7 +21,7 @@ const Card = () => {
   const [count, setCount] = useState(0);
   const [lastNumber, setLastNumber] = useState(0);
   function generateRandomNumber() {
-    return Math.floor(Math.random() * 10) + 1;
+    return Math.floor(Math.random() * 20) + 1;
     
   }
 
@@ -40,16 +40,18 @@ const Card = () => {
 
   
   const handleCardClick = (clickedCard) => {   
-    setCards((prevCards) => {
+    setCards((prevCards)  => {
         const randomNumber = generateRandomNumber();
         console.log(randomNumber)
      
         setCount(count + 1)
         
-        if (count + 1 === randomNumber) {
+        if (count + 1 >= randomNumber) {
             setLastNumber(randomNumber);
             console.log(`Last number before reset: ${lastNumber}`);
             resetCount();
+            
+
           }
 
 
