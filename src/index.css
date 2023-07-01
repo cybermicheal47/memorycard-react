@@ -99,5 +99,16 @@ header h2 {
 
 
 
+@media( max-width:560px){
+
+  .card{
+    width:24vh;
+  }
+  .card h2{
+  font-size: 4vw;
+  }
+}
+
+
 
 

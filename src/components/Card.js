@@ -21,7 +21,7 @@ const Card = () => {
   const [count, setCount] = useState(0);
   const [lastNumber, setLastNumber] = useState(0);
   function generateRandomNumber() {
-    return Math.floor(Math.random() * 20) + 1;
+    return Math.floor(Math.random() * 15) + 1;
     
   }
 
